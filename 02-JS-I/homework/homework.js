@@ -35,18 +35,24 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  var x = 2;
+  var y = 4;
   return suma (x + y);
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  var x = 5;
+  var y = 3;
   return resta (x - y);
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var x = 2;
+  var y = 3;
   return multiplica (x * y);
 }
 

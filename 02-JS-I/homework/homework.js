@@ -81,6 +81,7 @@ function menosQueNoventa(num) {
   var num = 25;
   if (menosQueNoventa > num) {
     return true;
+  } else {return false;
   }
 }
 
@@ -104,6 +105,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  var num = 8;
 }
 
 function esImpar(num) {
@@ -116,11 +118,15 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  var num = 5;
+  Math.pow(num,num);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var num = 3;
+  Math.pow(num,num,num);
 }
 
 function elevar(num, exponent) {

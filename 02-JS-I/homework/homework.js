@@ -157,18 +157,25 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+  expect(redondearHaciaArriba(1.5)).toBe(2);
+    expect(redondearHaciaArriba(2)).toBe(2);
+    expect(redondearHaciaArriba(0.1)).toBe(1);
 }
 
-function numeroRandom() {
+function numeroRandom(num) {
   //Generar un número al azar entre 0 y 1 y devolverlo
-  //Pista: investigá qué hace el método Math.random()
-}
-
+  //Pista: investigá qué hace el método Math.expect(typeof numeroRandom()).toBe('number');
+    expect(numeroRandom()).toBeGreaterThanOrEqual(0);
+    expect(numeroRandom()).toBeLessThan(1);random()
+ }
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+  esPositivo(0).toBe(false);
+    esPositivo(17).toBe('Es positivo');
+    esPositivo(0).toBe('Es negativo');
 }
 
 function agregarSimboloExclamacion(str) {

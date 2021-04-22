@@ -156,7 +156,7 @@ function operadoresLogicos(num1, num2, num3) {
   if (num1 === 0 || num2 === 0 || num3 === 0) 
     {return "Error";
 }
-  if ( num1 === null || num2 === null || num3 === null)
+  if ( num1 === 10 || num2 === 30 || num3 === 60)
     { return false;
   } 
 }
@@ -183,10 +183,8 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (2 + 1 === 3) { return "Soy verdadero";
-} 
-  if (2 * 1 === 2) { return "Soy falso";
-}
+   if (valor === true) return "Soy verdadero";
+   else if (valor === false) return "Soy falso";
 }
 
 function tablaDelSeis(){

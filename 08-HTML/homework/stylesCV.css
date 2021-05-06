@@ -1,0 +1,41 @@
+h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 300px;
+}
+
+h2{
+    color:black;
+    font-family: 'Dancing Script', cursive;
+}
+
+img{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+div{
+    position: relative;
+    display: flexbox;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+#explicacion{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px; 
+    display: block;
+}
+
+li{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+#desk{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
